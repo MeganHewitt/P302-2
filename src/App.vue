@@ -164,7 +164,12 @@ const chapterOneOptions = {
     x: {
       title: { display: true, text: 'Category', color: '#1C1917' },
       grid: { display: false },
-      ticks: { color: '#1C1917' },
+      ticks: {
+        color: '#1C1917',
+        autoSkip: false,
+        maxRotation: 35,
+        minRotation: 0,
+      },
     },
     y: {
       title: { display: true, text: 'Total sales (USD)', color: '#1C1917' },
@@ -361,6 +366,10 @@ const setChapterRef = (el: Element | ComponentPublicInstance | null, index: numb
     chapterRefs.value[index] = el as HTMLElement
   }
 }
+
+const goToChapter = (index: number) => {
+  chapterRefs.value[index]?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+}
 </script>
 
 <template>
@@ -369,12 +378,15 @@ const setChapterRef = (el: Element | ComponentPublicInstance | null, index: numb
       <v-container class="story-topbar"> 
         <div class="story-brand">The Promo Trap</div>
         <div class="story-progress" aria-label="Story chapter progress">
-          <span
+          <button
             v-for="(label, index) in chapterLabels"
             :key="label"
+            type="button"
             class="progress-dot"
             :class="{ active: activeChapter === index, complete: activeChapter > index }"
-            :title="label"
+            :aria-label="`Go to ${label}`"
+            :title="`Go to ${label}`"
+            @click="goToChapter(index)"
           />
         </div>
       </v-container>

@@ -64,10 +64,18 @@ body {
 .progress-dot {
   width: 10px;
   height: 10px;
+  padding: 0;
+  border: 0;
   border-radius: 50%;
   background: rgba(28, 25, 23, 0.2);
   display: block;
+  cursor: pointer;
   transition: all 0.2s ease;
+}
+
+.progress-dot:focus-visible {
+  outline: 2px solid #0F766E;
+  outline-offset: 4px;
 }
 
 .progress-dot.active {
@@ -173,7 +181,7 @@ p {
 .small-chart {
   height: 220px;
   min-height: 220px;
-  max-width: 420px;
+  max-width: 560px;
 }
 
 .chart-with-annotation {
