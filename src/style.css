@@ -43,9 +43,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: calc(100% - 96px) !important;
   max-width: 720px !important;
-  width: 100%;
-  padding: 0 8px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 0 !important;
 }
 
 .story-brand {
@@ -94,8 +96,8 @@ body {
 .story-shell {
   width: calc(100% - 96px) !important;
   max-width: 720px !important;
-  margin-left: 48px !important;
-  margin-right: 48px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
   padding: 48px 0 !important;
 }
 
@@ -265,7 +267,9 @@ p {
 
 @media (max-width: 600px) {
   .story-topbar {
-    padding: 0 12px;
+    width: calc(100% - 32px) !important;
+    margin-left: 16px !important;
+    margin-right: 16px !important;
   }
 
   .story-brand {
