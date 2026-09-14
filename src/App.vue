@@ -161,8 +161,19 @@ const chapterOneOptions = {
     tooltip: { enabled: true },
   },
   scales: {
-    x: { display: false },
-    y: { display: false },
+    x: {
+      title: { display: true, text: 'Category', color: '#1C1917' },
+      grid: { display: false },
+      ticks: { color: '#1C1917' },
+    },
+    y: {
+      title: { display: true, text: 'Total sales (USD)', color: '#1C1917' },
+      grid: { color: 'rgba(28,25,23,0.08)' },
+      ticks: {
+        color: '#1C1917',
+        callback: (value: string | number) => `$${Number(value).toLocaleString()}`,
+      },
+    },
   },
 }
 
@@ -183,11 +194,17 @@ const chapterTwoOptions = {
   },
   scales: {
     x: {
+      title: { display: true, text: 'Month', color: '#1C1917' },
       grid: { display: false },
       ticks: { color: '#1C1917', font: { size: 10 } },
     },
     y: {
-      display: false,
+      title: { display: true, text: 'Sales (USD)', color: '#1C1917' },
+      grid: { color: 'rgba(28,25,23,0.08)' },
+      ticks: {
+        color: '#1C1917',
+        callback: (value: string | number) => `$${Number(value).toLocaleString()}`,
+      },
     },
   },
 }
@@ -208,10 +225,12 @@ const chapterThreeOptions = {
   },
   scales: {
     x: {
+      title: { display: true, text: 'Month', color: '#1C1917' },
       grid: { display: false },
       ticks: { color: '#1C1917', maxRotation: 0 },
     },
     y: {
+      title: { display: true, text: 'Baseline sales (USD)', color: '#1C1917' },
       grid: { color: 'rgba(28,25,23,0.08)' },
       ticks: {
         color: '#1C1917',
@@ -378,7 +397,14 @@ const setChapterRef = (el: Element | ComponentPublicInstance | null, index: numb
           </p>
 
           <div class="chart-card small-chart">
+            <div class="chart-title">Total revenue by category</div>
             <Bar :data="chapterOneData" :options="chapterOneOptions" />
+            <div class="chart-key" aria-label="Category color key">
+              <span v-for="category in categoryOptions" :key="category" class="chart-key-item">
+                <i class="chart-key-swatch" :style="{ backgroundColor: categoryColors[category] }" />
+                {{ category }}
+              </span>
+            </div>
           </div>
         </section>
 
@@ -400,7 +426,12 @@ const setChapterRef = (el: Element | ComponentPublicInstance | null, index: numb
           </v-btn-toggle>
 
           <div class="chart-card">
+            <div class="chart-title">Baseline sales versus promo sales</div>
             <Bar :data="chapterTwoData" :options="chapterTwoOptions" />
+            <div class="chart-key" aria-label="Sales type color key">
+              <span class="chart-key-item"><i class="chart-key-swatch" :style="{ backgroundColor: categoryColors[selectedCategory] }" />Baseline sales</span>
+              <span class="chart-key-item"><i class="chart-key-swatch" style="background-color: #D6D3D1" />Promo sales</span>
+            </div>
           </div>
         </section>
 
@@ -416,8 +447,15 @@ const setChapterRef = (el: Element | ComponentPublicInstance | null, index: numb
           </p>
 
           <div class="chart-card chart-with-annotation">
+            <div class="chart-title">Baseline sales over time</div>
             <Line :data="chapterThreeData" :options="chapterThreeOptions" />
             <div v-if="chapterVisible" class="chart-annotation">Baseline starts declining here</div>
+            <div class="chart-key" aria-label="Category color key">
+              <span v-for="category in categoryOptions" :key="category" class="chart-key-item">
+                <i class="chart-key-swatch" :style="{ backgroundColor: categoryColors[category] }" />
+                {{ category }}
+              </span>
+            </div>
           </div>
         </section>
 
@@ -440,7 +478,14 @@ const setChapterRef = (el: Element | ComponentPublicInstance | null, index: numb
           </v-btn-toggle>
 
           <div class="chart-card">
+            <div class="chart-title">Promotion frequency and baseline change</div>
             <Scatter :data="chapterFourData" :options="chapterFourOptions" />
+            <div class="chart-key" aria-label="Category color key">
+              <span v-for="category in categoryOptions" :key="category" class="chart-key-item">
+                <i class="chart-key-swatch" :style="{ backgroundColor: categoryColors[category] }" />
+                {{ category }}
+              </span>
+            </div>
           </div>
         </section>
 

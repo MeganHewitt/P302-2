@@ -138,8 +138,40 @@ p {
   min-height: 280px;
 }
 
+.chart-title {
+  margin-bottom: 10px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(28, 25, 23, 0.72);
+}
+
+.chart-key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 18px;
+  margin-top: 10px;
+  font-size: 0.78rem;
+  color: rgba(28, 25, 23, 0.78);
+}
+
+.chart-key-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.chart-key-swatch {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  flex: 0 0 auto;
+}
+
 .small-chart {
-  min-height: 240px;
+  height: 180px;
+  min-height: 180px;
   max-width: 420px;
 }
 
