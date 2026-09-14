@@ -1,0 +1,542 @@
+[
+  {
+    "month": "Jan",
+    "category": "Snacks",
+    "totalSales": 742000.0,
+    "promoSales": 322000.0,
+    "baselineSales": 420000.0,
+    "marginRate": 0.34,
+    "promoWeeksThisMonth": 3,
+    "avgTransactionValue": 16.8
+  },
+  {
+    "month": "Jan",
+    "category": "Household Cleaning",
+    "totalSales": 498000.0,
+    "promoSales": 133000.0,
+    "baselineSales": 365000.0,
+    "marginRate": 0.306,
+    "promoWeeksThisMonth": 2,
+    "avgTransactionValue": 19.4
+  },
+  {
+    "month": "Jan",
+    "category": "Personal Care",
+    "totalSales": 336200.0,
+    "promoSales": 51200.0,
+    "baselineSales": 285000.0,
+    "marginRate": 0.342,
+    "promoWeeksThisMonth": 1,
+    "avgTransactionValue": 23.6
+  },
+  {
+    "month": "Feb",
+    "category": "Snacks",
+    "totalSales": 743450.0,
+    "promoSales": 318450.0,
+    "baselineSales": 425000.0,
+    "marginRate": 0.338,
+    "promoWeeksThisMonth": 2,
+    "avgTransactionValue": 16.9
+  },
+  {
+    "month": "Feb",
+    "category": "Household Cleaning",
+    "totalSales": 500000.0,
+    "promoSales": 133000.0,
+    "baselineSales": 367000.0,
+    "marginRate": 0.307,
+    "promoWeeksThisMonth": 2,
+    "avgTransactionValue": 19.5
+  },
+  {
+    "month": "Feb",
+    "category": "Personal Care",
+    "totalSales": 338760.0,
+    "promoSales": 52760.0,
+    "baselineSales": 286000.0,
+    "marginRate": 0.341,
+    "promoWeeksThisMonth": 1,
+    "avgTransactionValue": 23.7
+  },
+  {
+    "month": "Mar",
+    "category": "Snacks",
+    "totalSales": 731000.0,
+    "promoSales": 313000.0,
+    "baselineSales": 418000.0,
+    "marginRate": 0.336,
+    "promoWeeksThisMonth": 3,
+    "avgTransactionValue": 17.1
+  },
+  {
+    "month": "Mar",
+    "category": "Household Cleaning",
+    "totalSales": 500000.0,
+    "promoSales": 134000.0,
+    "baselineSales": 366000.0,
+    "marginRate": 0.309,
+    "promoWeeksThisMonth": 2,
+    "avgTransactionValue": 19.6
+  },
+  {
+    "month": "Mar",
+    "category": "Personal Care",
+    "totalSales": 340050.0,
+    "promoSales": 53050.0,
+    "baselineSales": 287000.0,
+    "marginRate": 0.343,
+    "promoWeeksThisMonth": 1,
+    "avgTransactionValue": 23.8
+  },
+  {
+    "month": "Apr",
+    "category": "Snacks",
+    "totalSales": 724250.0,
+    "promoSales": 309250.0,
+    "baselineSales": 415000.0,
+    "marginRate": 0.333,
+    "promoWeeksThisMonth": 2,
+    "avgTransactionValue": 17.2
+  },
+  {
+    "month": "Apr",
+    "category": "Household Cleaning",
+    "totalSales": 505000.0,
+    "promoSales": 137000.0,
+    "baselineSales": 368000.0,
+    "marginRate": 0.308,
+    "promoWeeksThisMonth": 1,
+    "avgTransactionValue": 19.7
+  },
+  {
+    "month": "Apr",
+    "category": "Personal Care",
+    "totalSales": 342000.0,
+    "promoSales": 53000.0,
+    "baselineSales": 289000.0,
+    "marginRate": 0.344,
+    "promoWeeksThisMonth": 1,
+    "avgTransactionValue": 23.9
+  },
+  {
+    "month": "May",
+    "category": "Snacks",
+    "totalSales": 718500.0,
+    "promoSales": 306500.0,
+    "baselineSales": 412000.0,
+    "marginRate": 0.329,
+    "promoWeeksThisMonth": 3,
+    "avgTransactionValue": 17.0
+  },
+  {
+    "month": "May",
+    "category": "Household Cleaning",
+    "totalSales": 504000.0,
+    "promoSales": 137000.0,
+    "baselineSales": 367000.0,
+    "marginRate": 0.306,
+    "promoWeeksThisMonth": 2,
+    "avgTransactionValue": 19.8
+  },
+  {
+    "month": "May",
+    "category": "Personal Care",
+    "totalSales": 346800.0,
+    "promoSales": 54800.0,
+    "baselineSales": 292000.0,
+    "marginRate": 0.343,
+    "promoWeeksThisMonth": 1,
+    "avgTransactionValue": 24.1
+  },
+  {
+    "month": "Jun",
+    "category": "Snacks",
+    "totalSales": 707350.0,
+    "promoSales": 300350.0,
+    "baselineSales": 407000.0,
+    "marginRate": 0.325,
+    "promoWeeksThisMonth": 2,
+    "avgTransactionValue": 16.7
+  },
+  {
+    "month": "Jun",
+    "category": "Household Cleaning",
+    "totalSales": 501000.0,
+    "promoSales": 137000.0,
+    "baselineSales": 364000.0,
+    "marginRate": 0.305,
+    "promoWeeksThisMonth": 2,
+    "avgTransactionValue": 19.7
+  },
+  {
+    "month": "Jun",
+    "category": "Personal Care",
+    "totalSales": 349600.0,
+    "promoSales": 54600.0,
+    "baselineSales": 295000.0,
+    "marginRate": 0.342,
+    "promoWeeksThisMonth": 1,
+    "avgTransactionValue": 24.2
+  },
+  {
+    "month": "Jul",
+    "category": "Snacks",
+    "totalSales": 695500.0,
+    "promoSales": 298500.0,
+    "baselineSales": 397000.0,
+    "marginRate": 0.32,
+    "promoWeeksThisMonth": 3,
+    "avgTransactionValue": 16.5
+  },
+  {
+    "month": "Jul",
+    "category": "Household Cleaning",
+    "totalSales": 498000.0,
+    "promoSales": 135000.0,
+    "baselineSales": 363000.0,
+    "marginRate": 0.307,
+    "promoWeeksThisMonth": 1,
+    "avgTransactionValue": 19.6
+  },
+  {
+    "month": "Jul",
+    "category": "Personal Care",
+    "totalSales": 352900.0,
+    "promoSales": 54900.0,
+    "baselineSales": 298000.0,
+    "marginRate": 0.341,
+    "promoWeeksThisMonth": 1,
+    "avgTransactionValue": 24.4
+  },
+  {
+    "month": "Aug",
+    "category": "Snacks",
+    "totalSales": 690000.0,
+    "promoSales": 300000.0,
+    "baselineSales": 390000.0,
+    "marginRate": 0.316,
+    "promoWeeksThisMonth": 3,
+    "avgTransactionValue": 16.3
+  },
+  {
+    "month": "Aug",
+    "category": "Household Cleaning",
+    "totalSales": 497000.0,
+    "promoSales": 135000.0,
+    "baselineSales": 362000.0,
+    "marginRate": 0.306,
+    "promoWeeksThisMonth": 2,
+    "avgTransactionValue": 19.5
+  },
+  {
+    "month": "Aug",
+    "category": "Personal Care",
+    "totalSales": 356900.0,
+    "promoSales": 56900.0,
+    "baselineSales": 300000.0,
+    "marginRate": 0.342,
+    "promoWeeksThisMonth": 1,
+    "avgTransactionValue": 24.6
+  },
+  {
+    "month": "Sep",
+    "category": "Snacks",
+    "totalSales": 676000.0,
+    "promoSales": 294000.0,
+    "baselineSales": 382000.0,
+    "marginRate": 0.312,
+    "promoWeeksThisMonth": 2,
+    "avgTransactionValue": 16.1
+  },
+  {
+    "month": "Sep",
+    "category": "Household Cleaning",
+    "totalSales": 500000.0,
+    "promoSales": 135000.0,
+    "baselineSales": 365000.0,
+    "marginRate": 0.308,
+    "promoWeeksThisMonth": 2,
+    "avgTransactionValue": 19.6
+  },
+  {
+    "month": "Sep",
+    "category": "Personal Care",
+    "totalSales": 359900.0,
+    "promoSales": 58900.0,
+    "baselineSales": 301000.0,
+    "marginRate": 0.344,
+    "promoWeeksThisMonth": 1,
+    "avgTransactionValue": 24.8
+  },
+  {
+    "month": "Oct",
+    "category": "Snacks",
+    "totalSales": 662500.0,
+    "promoSales": 287500.0,
+    "baselineSales": 375000.0,
+    "marginRate": 0.308,
+    "promoWeeksThisMonth": 3,
+    "avgTransactionValue": 15.9
+  },
+  {
+    "month": "Oct",
+    "category": "Household Cleaning",
+    "totalSales": 502000.0,
+    "promoSales": 136000.0,
+    "baselineSales": 366000.0,
+    "marginRate": 0.307,
+    "promoWeeksThisMonth": 2,
+    "avgTransactionValue": 19.7
+  },
+  {
+    "month": "Oct",
+    "category": "Personal Care",
+    "totalSales": 363700.0,
+    "promoSales": 61700.0,
+    "baselineSales": 302000.0,
+    "marginRate": 0.343,
+    "promoWeeksThisMonth": 1,
+    "avgTransactionValue": 25.0
+  },
+  {
+    "month": "Nov",
+    "category": "Snacks",
+    "totalSales": 646000.0,
+    "promoSales": 278000.0,
+    "baselineSales": 368000.0,
+    "marginRate": 0.303,
+    "promoWeeksThisMonth": 2,
+    "avgTransactionValue": 15.7
+  },
+  {
+    "month": "Nov",
+    "category": "Household Cleaning",
+    "totalSales": 505000.0,
+    "promoSales": 137000.0,
+    "baselineSales": 368000.0,
+    "marginRate": 0.305,
+    "promoWeeksThisMonth": 1,
+    "avgTransactionValue": 19.8
+  },
+  {
+    "month": "Nov",
+    "category": "Personal Care",
+    "totalSales": 367100.0,
+    "promoSales": 63100.0,
+    "baselineSales": 304000.0,
+    "marginRate": 0.342,
+    "promoWeeksThisMonth": 1,
+    "avgTransactionValue": 25.1
+  },
+  {
+    "month": "Dec",
+    "category": "Snacks",
+    "totalSales": 641050.0,
+    "promoSales": 278050.0,
+    "baselineSales": 363000.0,
+    "marginRate": 0.298,
+    "promoWeeksThisMonth": 3,
+    "avgTransactionValue": 15.5
+  },
+  {
+    "month": "Dec",
+    "category": "Household Cleaning",
+    "totalSales": 503000.0,
+    "promoSales": 136000.0,
+    "baselineSales": 367000.0,
+    "marginRate": 0.306,
+    "promoWeeksThisMonth": 2,
+    "avgTransactionValue": 19.9
+  },
+  {
+    "month": "Dec",
+    "category": "Personal Care",
+    "totalSales": 370900.0,
+    "promoSales": 64900.0,
+    "baselineSales": 306000.0,
+    "marginRate": 0.343,
+    "promoWeeksThisMonth": 1,
+    "avgTransactionValue": 25.3
+  },
+  {
+    "month": "Jan",
+    "category": "Snacks",
+    "totalSales": 633500.0,
+    "promoSales": 275500.0,
+    "baselineSales": 358000.0,
+    "marginRate": 0.293,
+    "promoWeeksThisMonth": 2,
+    "avgTransactionValue": 15.4
+  },
+  {
+    "month": "Jan",
+    "category": "Household Cleaning",
+    "totalSales": 502000.0,
+    "promoSales": 136000.0,
+    "baselineSales": 366000.0,
+    "marginRate": 0.307,
+    "promoWeeksThisMonth": 2,
+    "avgTransactionValue": 19.8
+  },
+  {
+    "month": "Jan",
+    "category": "Personal Care",
+    "totalSales": 374000.0,
+    "promoSales": 67000.0,
+    "baselineSales": 307000.0,
+    "marginRate": 0.344,
+    "promoWeeksThisMonth": 1,
+    "avgTransactionValue": 25.4
+  },
+  {
+    "month": "Feb",
+    "category": "Snacks",
+    "totalSales": 622000.0,
+    "promoSales": 270000.0,
+    "baselineSales": 352000.0,
+    "marginRate": 0.289,
+    "promoWeeksThisMonth": 3,
+    "avgTransactionValue": 15.2
+  },
+  {
+    "month": "Feb",
+    "category": "Household Cleaning",
+    "totalSales": 500000.0,
+    "promoSales": 135000.0,
+    "baselineSales": 365000.0,
+    "marginRate": 0.308,
+    "promoWeeksThisMonth": 1,
+    "avgTransactionValue": 19.7
+  },
+  {
+    "month": "Feb",
+    "category": "Personal Care",
+    "totalSales": 377600.0,
+    "promoSales": 69600.0,
+    "baselineSales": 308000.0,
+    "marginRate": 0.343,
+    "promoWeeksThisMonth": 1,
+    "avgTransactionValue": 25.6
+  },
+  {
+    "month": "Mar",
+    "category": "Snacks",
+    "totalSales": 611500.0,
+    "promoSales": 262500.0,
+    "baselineSales": 349000.0,
+    "marginRate": 0.284,
+    "promoWeeksThisMonth": 2,
+    "avgTransactionValue": 15.1
+  },
+  {
+    "month": "Mar",
+    "category": "Household Cleaning",
+    "totalSales": 503000.0,
+    "promoSales": 137000.0,
+    "baselineSales": 366000.0,
+    "marginRate": 0.307,
+    "promoWeeksThisMonth": 2,
+    "avgTransactionValue": 19.8
+  },
+  {
+    "month": "Mar",
+    "category": "Personal Care",
+    "totalSales": 379400.0,
+    "promoSales": 70400.0,
+    "baselineSales": 309000.0,
+    "marginRate": 0.342,
+    "promoWeeksThisMonth": 1,
+    "avgTransactionValue": 25.7
+  },
+  {
+    "month": "Apr",
+    "category": "Snacks",
+    "totalSales": 601000.0,
+    "promoSales": 257000.0,
+    "baselineSales": 344000.0,
+    "marginRate": 0.28,
+    "promoWeeksThisMonth": 3,
+    "avgTransactionValue": 14.9
+  },
+  {
+    "month": "Apr",
+    "category": "Household Cleaning",
+    "totalSales": 499000.0,
+    "promoSales": 135000.0,
+    "baselineSales": 364000.0,
+    "marginRate": 0.306,
+    "promoWeeksThisMonth": 2,
+    "avgTransactionValue": 19.7
+  },
+  {
+    "month": "Apr",
+    "category": "Personal Care",
+    "totalSales": 381500.0,
+    "promoSales": 71500.0,
+    "baselineSales": 310000.0,
+    "marginRate": 0.341,
+    "promoWeeksThisMonth": 1,
+    "avgTransactionValue": 25.5
+  },
+  {
+    "month": "May",
+    "category": "Snacks",
+    "totalSales": 588500.0,
+    "promoSales": 248500.0,
+    "baselineSales": 340000.0,
+    "marginRate": 0.276,
+    "promoWeeksThisMonth": 2,
+    "avgTransactionValue": 14.7
+  },
+  {
+    "month": "May",
+    "category": "Household Cleaning",
+    "totalSales": 501000.0,
+    "promoSales": 136000.0,
+    "baselineSales": 365000.0,
+    "marginRate": 0.305,
+    "promoWeeksThisMonth": 2,
+    "avgTransactionValue": 19.6
+  },
+  {
+    "month": "May",
+    "category": "Personal Care",
+    "totalSales": 382300.0,
+    "promoSales": 72300.0,
+    "baselineSales": 310000.0,
+    "marginRate": 0.343,
+    "promoWeeksThisMonth": 1,
+    "avgTransactionValue": 25.4
+  },
+  {
+    "month": "Jun",
+    "category": "Snacks",
+    "totalSales": 592500.0,
+    "promoSales": 248100.0,
+    "baselineSales": 344400.0,
+    "marginRate": 0.272,
+    "promoWeeksThisMonth": 3,
+    "avgTransactionValue": 14.8
+  },
+  {
+    "month": "Jun",
+    "category": "Household Cleaning",
+    "totalSales": 499000.0,
+    "promoSales": 133000.0,
+    "baselineSales": 366000.0,
+    "marginRate": 0.306,
+    "promoWeeksThisMonth": 1,
+    "avgTransactionValue": 19.7
+  },
+  {
+    "month": "Jun",
+    "category": "Personal Care",
+    "totalSales": 380000.0,
+    "promoSales": 71100.0,
+    "baselineSales": 308900.0,
+    "marginRate": 0.342,
+    "promoWeeksThisMonth": 1,
+    "avgTransactionValue": 25.2
+  }
+]

@@ -1,0 +1,256 @@
+:root {
+  color: #1C1917;
+  background: #FAFAF9;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.7;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #FAFAF9;
+  color: #1C1917;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#app {
+  min-height: 100vh;
+  background: #FAFAF9;
+}
+
+.story-app {
+  background: #FAFAF9;
+}
+
+.story-app-bar {
+  background: rgba(250, 250, 249, 0.96) !important;
+  border-bottom: 1px solid rgba(28, 25, 23, 0.1);
+  backdrop-filter: blur(8px);
+}
+
+.story-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 720px !important;
+  width: 100%;
+  padding: 0 8px;
+}
+
+.story-brand {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.5rem;
+  letter-spacing: -0.04em;
+  color: #1C1917;
+}
+
+.story-progress {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.progress-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(28, 25, 23, 0.2);
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.progress-dot.active {
+  background: #1C1917;
+  transform: scale(1.25);
+}
+
+.progress-dot.complete {
+  background: #0F766E;
+}
+
+.story-main {
+  background: #FAFAF9;
+}
+
+.story-shell {
+  max-width: 720px !important;
+  padding-top: 96px;
+  padding-bottom: 64px;
+}
+
+.story-chapter {
+  padding: 56px 0 72px;
+}
+
+.chapter-kicker {
+  margin-bottom: 12px;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: rgba(28, 25, 23, 0.72);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 18px;
+  color: #1C1917;
+  font-family: Georgia, 'Times New Roman', serif;
+  letter-spacing: -0.04em;
+  line-height: 1.08;
+  max-width: 12ch;
+}
+
+h1 {
+  font-size: clamp(2.6rem, 6vw, 4rem);
+}
+
+h2 {
+  font-size: clamp(2rem, 5vw, 2.8rem);
+}
+
+p {
+  margin: 0 0 18px;
+  font-size: 1rem;
+  line-height: 1.7;
+  max-width: 65ch;
+  color: #1C1917;
+}
+
+.chart-card {
+  margin-top: 24px;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  min-height: 280px;
+}
+
+.small-chart {
+  min-height: 240px;
+  max-width: 420px;
+}
+
+.chart-with-annotation {
+  position: relative;
+}
+
+.chart-annotation {
+  position: absolute;
+  left: 52%;
+  top: 24%;
+  transform: translateX(-50%);
+  background: rgba(250, 250, 249, 0.95);
+  color: #1C1917;
+  font-size: 0.78rem;
+  line-height: 1.3;
+  border-left: 3px solid #DC2626;
+  padding: 8px 10px;
+  box-shadow: 0 2px 8px rgba(28, 25, 23, 0.08);
+  white-space: nowrap;
+}
+
+.chapter-toggle {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  border: 1px solid rgba(28, 25, 23, 0.18);
+  background: transparent;
+  display: inline-flex;
+  width: auto;
+}
+
+.chapter-toggle .v-btn {
+  border-radius: 0 !important;
+  border: 0 !important;
+  min-width: 120px;
+  font-weight: 500;
+  text-transform: none;
+}
+
+.chapter-toggle .v-btn--selected {
+  background: #1C1917 !important;
+  color: #FAFAF9 !important;
+}
+
+.comparison-card {
+  margin-top: 24px;
+  border: 1px solid rgba(28, 25, 23, 0.12);
+  background: rgba(255, 255, 255, 0.3);
+  overflow: hidden;
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.comparison-table th,
+.comparison-table td {
+  border-bottom: 1px solid rgba(28, 25, 23, 0.12);
+  padding: 14px 12px;
+  text-align: left;
+}
+
+.comparison-table th {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(28, 25, 23, 0.7);
+  font-weight: 600;
+}
+
+.comparison-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.teal-highlight {
+  background: rgba(15, 118, 110, 0.08);
+  color: #0F766E;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .story-topbar {
+    padding: 0 12px;
+  }
+
+  .story-brand {
+    font-size: 1.2rem;
+  }
+
+  .story-shell {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .story-chapter {
+    padding-top: 44px;
+    padding-bottom: 56px;
+  }
+
+  .chapter-toggle {
+    width: 100%;
+    overflow-x: auto;
+    justify-content: flex-start;
+  }
+
+  .chart-annotation {
+    left: 58%;
+    top: 22%;
+    white-space: normal;
+    max-width: 180px;
+    font-size: 0.72rem;
+  }
+}
+
